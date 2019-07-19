@@ -1,0 +1,14 @@
+Troca de Avatar
+===============
+
+Atualmente o VLibras possui dois avatares intérpretes (Ícaro e Hozana)
+que podem ser selecionados. No widget a mudança pode ser feita clicando
+no botão com o ícone do avatar, localizado no canto superior esquerdo
+da janela da ferramenta.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/avatarchange.webm" type="video/webm" />
+   </video>
+   <br></br>

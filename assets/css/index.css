@@ -1,0 +1,156 @@
+.navbar-brand img {
+  margin-top: -10%;
+  max-width: 100%;
+}
+
+.navbar {
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:focus, a:hover {
+  border: 2px solid #F00;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+}
+
+.hide {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
+.section-1 {
+  background-color: #CFE2FC;
+}
+
+.section-1 img {
+  margin-top: 3.7%;
+}
+
+.section-1-text {
+  font-size: 1.1em;
+  margin-top: 20%;
+}
+
+.section-2 {
+  background-color: rgb(241, 242, 244);
+}
+
+.section-2-text {
+  margin-top: 17%;
+  font-size: 1.1em;
+}
+
+.section-2-video {
+  margin-top: 5%;
+}
+
+.section-3 {
+  line-height: 30px;
+  background-color: rgb(250, 226, 0);
+}
+
+.section-3-text {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.section-3-list {
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+}
+
+
+.section-4 {
+  background-color: rgb(178, 206, 238);
+}
+
+.section-4-header {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.section-4-logos {
+  max-width: 80%;
+}
+
+.section-4-logos img {
+  max-width: 50%;
+}
+
+.section-4-logocontribua {
+  margin-top: 15%;
+}
+
+
+.section-2, .section-3, .section-4, .section-5, .section-6 {
+  padding-bottom: 35px;
+}
+
+.section-5-header {
+  text-align: center;
+  color: #000000;
+  font-size: 1.1em;
+}
+
+.section-5-logos {
+  max-width: 70%;
+  margin-left: 17%;
+  line-height: 10px;
+}
+
+.section-5-logos img:nth-child(n+2) {
+  margin-left: 35px;
+}
+
+.section-5-logos-list-2 {
+  margin-top: 2.7%;
+}
+
+.section-4 img {
+  margin-bottom: 20px;
+}
+
+.section-5 img {
+  margin-bottom: 20px;
+}
+
+.section-6 {
+  background-color: rgb(29, 45, 180);
+}
+
+.section-6-header {
+  text-align: center;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+
+.section-6-text {
+  margin-top: 5%;
+  line-height: 2.2em;
+}
+
+.center-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-sec-4 {
+  left:auto;
+}
