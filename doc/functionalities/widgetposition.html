@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Posição do Widget &mdash; documentação Manual de Instalação da Ferramenta VLibras Widget 4.0.0</title>
+  <title>Posição do Widget &mdash; documentação Manual de Instalação da Ferramenta VLibras Widget 5.0.0</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                4.0.0
+                5.0.0
               </div>
             
           
@@ -224,7 +224,16 @@ Para retornar à posição original, deve-se clicar novamente no botão <em>Posi
       });
   </script>
 
-  
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div> 
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
   
     
    
