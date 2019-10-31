@@ -1,0 +1,18 @@
+Reproduzir e Pausar
+===================
+
+A funcionalidade mais básica da ferramenta é o botão *Reproduzir/Pausar*. Localizado
+no canto inferior esquerdo da janela do widget, ele permite que o usuário
+pause ou continue a tradução em qualquer instante da animação.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/play_pause.webm" type="video/webm" />
+   </video>
+   <br></br>
+
+.. note::
+   Essa funcionalidade é ativada automaticamente ao trocar de janela. Quando o usuário
+   alterna entre abas no navegador ou muda para uma janela do computador, a tradução é 
+   pausada e permanece assim até que o usuário volte para a página da tradução.
