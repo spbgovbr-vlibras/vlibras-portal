@@ -1,0 +1,39 @@
+Requisitos de Hardware e Software
+=================================
+
+Este seção apresenta uma série de requisitos de hardware e software que
+precisam ser atendidos antes de instalar o VLibras-Desktop.
+
+Requisitos de Hardware
+----------------------
+
+.. list-table::
+   :widths: 25 25
+   :header-rows: 1
+
+   * - Configuração mínima
+     - Configuração recomendada
+   * - Processador 2.0 GHz Dual Core
+     - Processador 2.5 GHz Core 2 Duo (ou superior)
+   * - Memória principal (RAM) com 2 GB
+     - Memória principal (RAM) com 4 GB (ou superior)
+   * - Hard Disk (HD) com 2 GB de espaço livre
+     - 
+   * - Placa de vídeo com 128 MB
+     - Placa de vídeo com 256 MB e aceleração 3D (ou superior)
+   * - OpenGL
+     - Versão 3.3 (ou superior)
+
+
+Requisitos de Software
+----------------------
+
+.. list-table::
+   :widths: 25 25
+   :header-rows: 1
+
+   * - Sistema Operacional
+     - Arquitetura
+
+   * - Ubuntu
+     - 64 bits

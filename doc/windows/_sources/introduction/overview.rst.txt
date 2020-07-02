@@ -1,0 +1,8 @@
+Visão Geral
+===========
+
+Os surdos enfrentam bastante dificuldade para ler, escrever e se comunicar na
+língua oral do seu país. Dessa forma, para tentar reduzir esses problemas, o objetivo
+da ferramenta computacional de código aberto, denominada VLibras-Desktop,
+consiste em traduzir conteúdos do Português para Língua Brasileira de Sinais (Libras),
+tornando os computadores (desktop) acessíveis a pessoas surdas.

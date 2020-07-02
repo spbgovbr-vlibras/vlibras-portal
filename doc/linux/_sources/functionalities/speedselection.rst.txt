@@ -1,0 +1,11 @@
+Seleção de Velocidade
+=====================
+
+A seleção de velocidade é uma funcionalidade que possibilita o usuário aumentar ou reduzir 
+a velocidade da animação de tradução. O botão *Seletor de velocidade* está localizado no canto
+inferior direito da janela.
+
+.. raw:: html
+
+   <img src="../_static/speed-button.png" class="align-center" position="absolute" />
+   <br></br>

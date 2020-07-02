@@ -1,0 +1,8 @@
+Atualização de Pacotes
+======================
+
+Caso o usuário deseje atualizar o VLibras, deverá abrir o atalho localizado na Área de
+Trabalho, chamado Atualizador VLibras. O software irá verificar se há novas
+atualizações tanto do software como do dicionário de sinais. Caso haja atualização,
+será efetuado o download e feito a devida instalação. Caso contrário, o VLibras será
+normalmente executado.

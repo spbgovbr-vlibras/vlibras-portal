@@ -1,0 +1,15 @@
+Reproduzir e Pausar
+===================
+
+A funcionalidade mais básica da ferramenta é o botão *Reproduzir/Pausar*. Localizado
+no canto inferior esquerdo da janela, ele permite que o usuário
+pause ou continue a tradução em qualquer instante da animação.
+
+.. raw:: html
+
+   <img src="../_static/play-button.png" class="align-center" position="absolute" />
+   <br></br>
+
+.. note::
+   Quando o usuário muda para uma outra janela do computador, a tradução é pausada
+   e permanece assim até que o usuário volte para a janela do VLibras.

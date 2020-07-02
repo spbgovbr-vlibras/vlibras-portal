@@ -1,0 +1,17 @@
+Tradução de Texto
+=================
+
+A tradução com o VLibras Desktop é feita pela seleção do texto que se deseja traduzir.
+Para isso, o usuário deve escolher e selecionar um texto para ser traduzido.
+
+.. raw:: html
+
+   <img src="../_static/selection.png" class="align-center" position="absolute" />
+   <br></br>
+
+Com o VLibras aberto, basta clicar no botão 'Reproduzir' e a ferramenta iniciará a tradução.
+
+.. raw:: html
+
+   <img src="../_static/play-button.png" class="align-center" position="absolute" />
+   <br></br>

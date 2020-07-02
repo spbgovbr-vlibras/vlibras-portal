@@ -1,0 +1,14 @@
+Posição do Widget
+=================
+
+Por padrão, a janela do widget é carregada no lado direito da página web, no entanto, essa
+posição pode ser trocada para o lado esquerdo através do botão *Menu* (☰), localizado no
+canto superior esquerdo da janela do widget, e clicando no botão *Posicionamento* da Tela.
+Para retornar à posição original, deve-se clicar novamente no botão *Posicionamento* da Tela..
+
+.. raw:: html
+
+   <video class="align-center" width="640" height="360" position="absolute" autoplay loop>
+    <source src="../_static/widget_position.webm" type="video/webm" />
+   </video>
+   <br></br>

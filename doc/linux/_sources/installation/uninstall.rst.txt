@@ -1,0 +1,12 @@
+Realizando desinstalação
+===========================
+
+Para desinstalar o VLibras Desktop Linux siga os seguintes passos:
+
+* Abra um terminal
+.. raw:: html
+
+   <img src="../_static/terminal.png" class="align-center" position="absolute" />
+   <br></br>
+
+* Digite o seguinte comando: ``sudo snap remove vlibras-desktop``

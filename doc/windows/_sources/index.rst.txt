@@ -1,0 +1,37 @@
+.. Manual de Instalação da Ferramenta VLibras Desktop Windows documentation master file, created by
+   sphinx-quickstart on Thu May  2 13:53:05 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Manual de Instalação da Ferramenta VLibras Desktop Windows
+==========================================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Introdução
+
+   introduction/presentation
+   introduction/overview
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Instalação
+
+   installation/systemrequirements
+   installation/javaenvironment
+   installation/desktopinstallation
+   installation/updatepackage
+   installation/uninstallapplication
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Funcionalidades
+
+   functionalities/texttranslation
+   functionalities/playpause
+   functionalities/speedselection
+   functionalities/captionoption
+   functionalities/avatarchange
+   functionalities/regionselection
+   functionalities/dictionary
+   functionalities/screenreader

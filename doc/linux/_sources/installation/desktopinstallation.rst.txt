@@ -1,0 +1,41 @@
+Realizando instalação
+===========================
+
+Para realizar a instalação do VLibras Desktop Linux siga os seguintes passos:
+
+* Acesse `VLibras <https://snapcraft.io/vlibras-desktop>`_
+* Verifique a arquitetura do seu sistema. (amd64 para Ubuntu).
+.. raw:: html
+
+   <img src="../_static/architecture.png" class="align-center" position="absolute" />
+   <br></br>
+
+* Selecione o canal com a ultima versão estável (latest/stable) e clique em 'Install'.
+.. raw:: html
+
+   <img src="../_static/install-button.png" class="align-center" position="absolute" />
+   <br></br>
+
+* Copie o comando informado.
+.. raw:: html
+
+   <img src="../_static/command.png" class="align-center" position="absolute" />
+   <br></br>
+
+* Abra o terminal.
+.. raw:: html
+
+   <img src="../_static/terminal.png" class="align-center" position="absolute" />
+   <br></br>
+
+* Cole o comando copiado e pressione 'Enter'
+.. raw:: html
+
+   <img src="../_static/terminal-command.png" class="align-center" position="absolute" />
+   <br></br>
+
+* Com a instalação finalizada, procure o VLibras e clique no seu atalho.
+.. raw:: html
+
+   <img src="../_static/vlibras-icon.png" class="align-center" position="absolute" />
+   <br></br>

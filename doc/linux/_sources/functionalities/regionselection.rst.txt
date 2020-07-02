@@ -1,0 +1,11 @@
+Seleção de Região
+=================
+
+A seleção de região é uma funcionalidade que possibilita a escolha de um dicionário
+específico de sinalizações. Para selecionar o dicionário de uma região, deve-se
+clicar no botão *Menu* (☰), depois no botão *Regionalismo* e selecionar a região desejada. 
+
+.. raw:: html
+
+   <img src="../_static/region.png" class="align-center" position="absolute" />
+   <br></br>

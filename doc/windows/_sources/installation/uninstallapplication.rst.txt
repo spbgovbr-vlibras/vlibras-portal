@@ -1,0 +1,36 @@
+Desinstalação da Ferramenta
+===========================
+
+A ferramenta do VLibras-Desktop pode ser removida através do *Menu Iniciar*, 
+selecionando *LAVID-UFPB* e clicando na em *Desinstalar o VLibras*, conforme a imagem abaixo.
+
+.. raw:: html
+
+   <img src="../_static/uninstall_01.png" class="align-center" position="absolute" />
+   <br></br>
+
+Após clicar em *Desinstalar o VLibras*, aparecerá uma janela com as opções "Sim" ou "Não", 
+conforme a imagem abaixo.
+
+.. raw:: html
+
+   <img src="../_static/uninstall_02.png" class="align-center" position="absolute" />
+   <br></br>
+
+Caso clique *Sim*, irá desinstalar o VLibras, mas antes aparecerá uma mensagem de aviso, clique *OK* 
+para iniciar a desinstalação.
+
+.. raw:: html
+
+   <img src="../_static/uninstall_03.png" class="align-center" position="absolute" />
+   <br></br>
+
+Quando finalizado, aparecerá outra janela informando que a desinstalação foi concluída.
+
+.. raw:: html
+
+   <img src="../_static/uninstall_04.png" class="align-center" position="absolute" />
+   <br></br>
+
+.. note::
+   Não desinstalar através do Painel de Controle do Windows.
