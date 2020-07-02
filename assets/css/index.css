@@ -12,11 +12,12 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-a:focus, a:hover {
-  border: 2px solid #F00;
+a:focus,
+a:hover {
+  border: 2px solid #f00;
 }
 
 a {
@@ -33,7 +34,7 @@ a {
 }
 
 .section-1 {
-  background-color: #CFE2FC;
+  background-color: #cfe2fc;
 }
 
 .section-1 img {
@@ -74,7 +75,6 @@ a {
   font-size: 0.9em;
 }
 
-
 .section-4 {
   background-color: rgb(178, 206, 238);
 }
@@ -96,8 +96,11 @@ a {
   margin-top: 15%;
 }
 
-
-.section-2, .section-3, .section-4, .section-5, .section-6 {
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
   padding-bottom: 35px;
 }
 
@@ -113,7 +116,7 @@ a {
   line-height: 10px;
 }
 
-.section-5-logos img:nth-child(n+2) {
+.section-5-logos img:nth-child(n + 2) {
   margin-left: 35px;
 }
 
@@ -144,6 +147,11 @@ a {
   line-height: 2.2em;
 }
 
+.img-logo {
+  width: 400px;
+  height: 125px;
+}
+
 .center-sec {
   display: flex;
   flex-direction: row;
@@ -152,5 +160,12 @@ a {
 }
 
 .align-sec-4 {
-  left:auto;
+  left: auto;
+}
+
+.icon-icaro-modelo {
+  margin-right: 6px;
+  width: 18px;
+  height: 22px;
+  margin-bottom: 9px;
 }
