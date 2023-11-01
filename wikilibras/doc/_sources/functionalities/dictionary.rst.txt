@@ -1,0 +1,13 @@
+Consultar Dicionário
+====================
+
+O dicionário apresenta todos os sinais publicados na plataforma VLibras separados por suas letras iniciais.  
+Para acessar ter acesso aos sinais publicados basta clicar na aba "DICIONÁRIO".
+
+.. figure:: ../_static/dicionario.png
+   :align: center
+
+Além disso o usuário pode obter uma descrição completa do sinal clicando no link "VER COMPLETA".
+
+.. figure:: ../_static/dicionario_modal.png
+   :align: center

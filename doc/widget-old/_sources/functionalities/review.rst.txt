@@ -1,0 +1,28 @@
+Avaliação e Revisão de Tradução
+===============================
+
+O VLibras Widget possui uma funcionalidade que permite o usuário avaliar 
+uma tradução como "Gostei" ou "Não gostei". Esse recurso é habilitado
+ao fim de cada tradução e pode ser usado clicando no botão *Avaliar*,
+que surge no canto inferior direito da janela do widget, e respondendo
+a pergunta "Gostou da tradução?", clicando em *Sim* ou *Não*.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/rating.webm" type="video/webm" />
+   </video>
+   <br></br>
+
+Além da avaliação, a ferramenta também permite a revisão da tradução. A opção de revisar
+um texto traduzido aparece sempre após uma avaliação negativa. Ao clicar no botão *Sugerir
+edição*, o usuário é levado a uma tela de edição de texto preenchida com a glosa da tradução.
+Após a correção da glosa, a sugestão de tradução pode ser enviada clicando no botão *Enviar
+sugestão*.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/review.webm" type="video/webm" />
+   </video>
+   <br></br>

@@ -1,1 +1,12 @@
-{"cabelo":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"calca":{"x":0.054,"y":0.058,"z":0.094,"w":1.0},"camisa":{"x":0.109,"y":0.125,"z":0.309,"w":1.0},"corpo":{"x":0.756,"y":0.517,"z":0.443,"w":1.0},"iris":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"olhos":{"x":1.0,"y":1.0,"z":1.0,"w":1.0},"sombrancelhas":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"logo":"https://vlibras.gov.br/config/img/logo-lavid.png", "pos":"center"}
+{
+   "calca": "#0E0F18",
+   "camisa": "#1C204F",
+   "cabelo": "#000000",
+   "avatar": "random",
+   "corpo": "#C18471",
+   "iris": "#000000",
+   "olhos": "#FFFFFF",
+   "sombrancelhas": "#000000",
+   "pos":"center",
+   "logo":"https://vlibras.gov.br/config/img/logo-lavid.png"
+}

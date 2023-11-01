@@ -3,9 +3,9 @@ Avaliação e Revisão de Tradução
 
 O VLibras Widget possui uma funcionalidade que permite o usuário avaliar 
 uma tradução como "Gostei" ou "Não gostei". Esse recurso é habilitado
-ao fim de cada tradução e pode ser usado clicando no botão *Avaliar*,
+ao fim de cada tradução e pode ser usado clicando no botão **Avaliar**,
 que surge no canto inferior direito da janela do widget, e respondendo
-a pergunta "Gostou da tradução?", clicando em *Sim* ou *Não*.
+a pergunta "Gostou da tradução?", clicando em **Sim** ou **Não**.
 
 .. raw:: html
 
@@ -15,14 +15,35 @@ a pergunta "Gostou da tradução?", clicando em *Sim* ou *Não*.
    <br></br>
 
 Além da avaliação, a ferramenta também permite a revisão da tradução. A opção de revisar
-um texto traduzido aparece sempre após uma avaliação negativa. Ao clicar no botão *Sugerir
-edição*, o usuário é levado a uma tela de edição de texto preenchida com a glosa da tradução.
-Após a correção da glosa, a sugestão de tradução pode ser enviada clicando no botão *Enviar
-sugestão*.
+um texto traduzido aparece sempre após uma avaliação negativa. Ao clicar no botão **Sugerir
+edição**, o usuário é levado a uma tela de edição de texto preenchida com a glosa da tradução.
 
 .. raw:: html
 
    <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
     <source src="../_static/review.webm" type="video/webm" />
+   </video>
+   <br></br>
+
+Durante a revisão da glosa, é possível que o editor de texto sugira palavras que estão
+no dicionário do VLibras para facilitar a visualização dos sinais disponíveis na ferramenta
+de tradução. Em caso da palavra sugerida for a desejada pelo usuário, basta selecioná-la na
+lista de palavras que o editor preencherá automaticamente.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/review_sugestion.webm" type="video/webm" />
+   </video>
+   <br></br>
+
+
+Após a correção da glosa, a animação da sugestão de tradução pode ser pré-visualizada
+clicando no botão **Ver em LIBRAS** e enviada clicando no botão **Enviar Sugestão**.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/review_visualization.webm" type="video/webm" />
    </video>
    <br></br>

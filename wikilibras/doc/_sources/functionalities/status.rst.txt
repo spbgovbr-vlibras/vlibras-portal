@@ -1,0 +1,11 @@
+Consultar Estatísticas
+======================
+
+O painel de estatísticas apresenta todos os sinais presentes na plataforma divididos por estado. 
+Além disso é possível visualizar alguns gráficos que baseiam-se na quantidade de sinais proposto por mês (gráfico de barra) e a quantidade de sinais em cada estado (gráfico de pizza). 
+
+Para ter acesso a todas essas informações basta o usuário clicar na aba "ESTATÍSTICAS".
+
+
+.. figure:: ../_static/status.png
+   :align: center

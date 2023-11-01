@@ -7,5 +7,10 @@ Português Brasileiro para a Língua Brasileira de Sinais (LIBRAS), essa
 ferramenta permite que usuários surdos sejam capazes de consumir 
 conteúdos de texto em qualquer website.
 
-Este manual tem como objetivo apresentar os procedimentos para a instalação
-da ferramenta VLibras Widget em páginas da web.
+Este manual tem como objetivo ser um guia de uso e instalação da ferramenta 
+VLibras Widget em páginas da web.
+
+.. important::
+   Este manual contém vídeos de demonstração que facilitam o entendimento das
+   funcionalidades do VLibras Widget. Verifique se seu navegador permite a
+   reprodução automática de vídeos.

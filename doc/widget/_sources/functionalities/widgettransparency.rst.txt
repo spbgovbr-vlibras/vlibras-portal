@@ -1,0 +1,15 @@
+Transparência do Widget
+=======================
+
+Em conjunto com a funcionalidade de troca de posição da janela, o widget também permite 
+ajustar o nível de transparência do plano de fundo da região que comporta o avatar.
+Os níveis disponíveis variam de 0% à 100% em intervalos de 25% e podem ser selecionados
+através do botão **Menu** (☰), localizado no canto superior esquerdo da janela do widget,
+e clicando no botão ⮞ para aumentar a transparência ou no botão ⮜ para diminuir.
+
+.. raw:: html
+
+   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
+    <source src="../_static/widget_transparency.webm" type="video/webm" />
+   </video>
+   <br></br>

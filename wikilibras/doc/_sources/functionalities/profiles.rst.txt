@@ -1,0 +1,45 @@
+Perfis
+======
+
+Existem diferentes tipos de perfis na plataforma WikiLibras. Cada perfil possui 
+um papel diferente no sistema, os perfis são gerenciados de maneira cumulativas, 
+ou seja, um usuário pode possuir mais de um perfil associado.
+
+.. note::
+  Todos os usuários são colaboradores automaticamente ao realizar o cadastro.
+
+Listamos abaixo todos os perfis possíveis para um usuário junto com seu papel dentro da plataforma.
+
+Colaborador
+------------
+
+Usuário que pode propor novos sinais ou propor revisão nos sinais existentes no VLibras, 
+mas não podem avaliar se esses sinais estão corretos ou não.
+
+Animador
+---------
+
+Usuário que cria as animações dos sinais que tiveram os seus vídeos de referência 
+aprovados pelos especialistas em Libras. Essas animações são novamente avaliadas pelos 
+especialistas em Libras e caso sejam aprovadas, o novo sinal em Libras é incorporado ao VLibras.
+
+Especialista
+-------------
+
+Usuário que avalia tanto os vídeos de referência dos sinais propostos pelos colaboradores 
+quanto as animações dos sinais produzidas pelos animadores. Nesta nova implementação do WikiLibras, 
+um sinal só será considerado aprovado se tiver a aprovação de pelo menos X especialistas em Libras, 
+onde X é um parâmetro configurado no WikiLibras. 
+Atualmente, X está configurado para 3 aprovações ou 3 reprovações para aprovação 
+ou reprovação de um vídeo ou animação, respectivamente.
+
+Moderador
+----------
+
+Usuário que controla/monitora todo o fluxo de trabalho e pode aprovar ou não proposições de novos sinais, aprovações de 
+mudanças de perfil, ajuste nas informações dos sinais, entre outros.
+
+Linguista
+---------
+
+Usuário que atua nas tarefas referentes a tradução. Usuários com esse perfil são responsáveis por avaliar as revisões de traduções.

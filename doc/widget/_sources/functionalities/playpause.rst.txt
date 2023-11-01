@@ -1,7 +1,7 @@
 Reproduzir e Pausar
 ===================
 
-A funcionalidade mais básica da ferramenta é o botão *Reproduzir/Pausar*. Localizado
+A funcionalidade mais básica da ferramenta é o botão **Reproduzir/Pausar**. Localizado
 no canto inferior esquerdo da janela do widget, ele permite que o usuário
 pause ou continue a tradução em qualquer instante da animação.
 
@@ -12,7 +12,7 @@ pause ou continue a tradução em qualquer instante da animação.
    </video>
    <br></br>
 
-.. note::
+.. hint::
    Essa funcionalidade é ativada automaticamente ao trocar de janela. Quando o usuário
    alterna entre abas no navegador ou muda para uma janela do computador, a tradução é 
    pausada e permanece assim até que o usuário volte para a página da tradução.

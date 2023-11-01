@@ -1,0 +1,23 @@
+Avaliar Solicitação de Perfil
+=============================
+
+A avaliação da solicitação de um novo perfil pode ser avaliada apenas para usuários cujo perfil seja "MODERADOR". 
+Os passos para avaliar uma solicitação de um novo perfil são:
+
+1. Na aba "TAREFAS DISPONÍVEIS" o usuário terá acesso a todas as proposições que estão no estado 
+"AGUARDANDO AVALIAÇÃO DE SOLICITAÇÃO DE PERFIL". Para se tornar responsável pela tarefa de avaliar a proposição basta clicar em "PEGAR TAREFA".
+
+.. figure:: ../_static/perfil_disponivel.png
+   :align: center
+
+2. Em seguida a tarefa fica disponível para o usuário realizar a ação de avaliação. Para avaliar 
+basta clicar em "AVALIAR SOLICITAÇÃO DE PERFIL".
+
+.. figure:: ../_static/avaliar_perfil.png
+   :align: center
+
+3. O moderador pode visualizar todas as informações que o usuário requerente enviou, inclusive é possível realizar o donwload dos anexos (comprovantes) 
+enviados. Em caso de aprovação o novo perfil é adicionado automaticamente ao usuário solicitante, em caso de reprovação não existe nenhuma alteração no sistema. 
+
+.. figure:: ../_static/avaliar_perfil_modal.png
+   :align: center

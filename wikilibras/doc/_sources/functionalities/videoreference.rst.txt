@@ -1,0 +1,27 @@
+Adicionar Vídeo Referência
+==========================
+
+A inserção do vídeo de referência pode ser realizada por todos os usuários. 
+Os passos para adicionar um vídeo referência são:
+
+1. Na aba  "TAREFAS DISPONÍVEIS" o usuário terá acesso a todos os sinais que estão no estado 
+"AGUARDANDO VÍDEO REFERÊNCIA". Para se tornar responsável pela tarefa de adicionar um vídeo referência basta clicar em "PEGAR TAREFA".
+
+.. figure:: ../_static/pegar_tarefa_video.png
+   :align: center
+
+2. Em seguida a tarefa fica disponível para o usuário realizar a ação de inserção de vídeo. Para adicionar um vídeo referência 
+basta clicar em "CRIAÇÃO DE VÍDEO REFERÊNCIA".
+
+
+.. figure:: ../_static/inserir_video_referencia.png
+   :align: center
+
+3. O usuário deve selecionar o arquivo desejado em "ABRIR ARQUIVO" e em seguida clicar em 
+"CONFIRMAR ARQUIVO SUGERIDO" para finalizar o processo.
+
+.. note::
+  O formato MP4 é o único formato de vídeo aceito na plataforma Wikilibras.
+
+.. figure:: ../_static/adiciona_video_referencia.png
+   :align: center

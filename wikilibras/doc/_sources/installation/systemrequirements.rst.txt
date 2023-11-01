@@ -1,0 +1,10 @@
+Requisitos do Sistema
+=====================
+
+Esta versão do Wikilibras é compatível com os seguintes navegadores:
+
+* Google Chrome
+* Mozilla Firefox
+
+.. note::
+   É possível que outros navegadores sejam compatíveis, mas sem garantia de estabilidade.

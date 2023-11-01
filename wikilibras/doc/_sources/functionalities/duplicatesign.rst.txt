@@ -1,0 +1,22 @@
+Propor duplicação de sinal
+==========================
+
+A duplicação de sinal pode ser proposta por todos usuários, visto que todos os usuários possuem o perfil "COLABORADOR".
+Os passos para propor uma duplicação são:
+
+1. Na aba  "DUPLICAR SINAL" o usuário poderá pesquisar o sinal que deseja propor a duplicação no campo "PESQUISAR SINAL".
+
+.. figure:: ../_static/duplicate/01-duplicar_sinal.png
+   :align: center
+
+2. Após pesquisar o sinal, aparecerá o sinal que ele deseja propor a duplicação. Para propor a duplicação, é necessário clicar no 
+botão "VER COMPLETA".
+
+.. figure:: ../_static/duplicate/02-procurar_sinal.png
+   :align: center
+
+3. Irá aparecer uma janela com todas as informações do sinal, então no último passo para duplicação, o usuário irá trocar as informações 
+necessárias para duplicação, como por exemplo "NOME DO SINAL", e clicar no botão "DUPLICAR SINAL" para propor a duplicação.
+
+.. figure:: ../_static/duplicate/03-propor_duplicacao_sinal.png
+   :align: center

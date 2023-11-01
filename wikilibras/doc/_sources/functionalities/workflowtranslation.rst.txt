@@ -1,0 +1,15 @@
+Fluxo de Trabalho - Tradução
+============================
+
+Com base nos perfis de usuários, o workflow revisão de tradução foi 
+planejado e estruturado da seguinte forma: 
+
+.. figure:: ../_static/workflow_wikilibras_translate.png
+   :align: center
+   :width: 500
+   :height: 500
+
+1. Inicialmente, a proposição de revisão é feita através das ferramentas do VLibras. As traduções que foram avaliadas negativamente são enviadas para o Wikilibras. A proposição pode ser enviada com sugestão ou sem a sugestão de tradução.
+2. Caso não seja enviada a sugestão, ficará com status "Aguardando Revisão de Tradução" até que um usuário com perfil COLABORADOR faça a sugestão de tradução.
+3. Caso seja enviada a sugestão pelas ferramentas do VLibras ou após ser feita a sugestão no status "Aguardando Revisão de Tradução", a revisão da tradução será avaliada por um usuário com perfil LINGUISTA.
+4. Caso seja aprovada a revisão de tradução, a mesma irá compor o corpus de tradução das ferramentas VLibras. Caso seja reprovada, irá para o status "Aguardando Revisão de Tradução" para que outro usuário possa fazer outra sugestão.

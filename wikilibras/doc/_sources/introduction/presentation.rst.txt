@@ -1,0 +1,12 @@
+Apresentação
+============
+
+O WikiLibras é uma plataforma para a construção e evolução colaborativa dos sinais do VLibras com a participação de uma comunidade de usuários através da Internet. Esta plataforma permite que uma rede de colaboradores possa criar, revisar, animar e avaliar sinais em Libras, e caso esses sinais sejam aprovados por especialistas, eles passarão a compor/complementar o dicionário de sinais da Suíte VLibras
+
+.. raw:: html
+
+   <img class="align-center" width="224" height="128" position="absolute" src="http://login-wiki.vlibras.lavid.ufpb.br/static/media/logo_wikilibras_2.a329ba22.png" />
+ 
+   <br></br>
+
+Este manual tem como objetivo apresentar os procedimentos para a utilização da ferramenta WikiLibras.

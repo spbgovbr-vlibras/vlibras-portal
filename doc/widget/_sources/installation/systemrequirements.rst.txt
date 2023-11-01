@@ -7,5 +7,5 @@ Esta versão do VLibras Widget é compatível com os seguintes navegadores:
 * Firefox
 * Safari (MacOS e IOS)
 
-.. note::
+.. warning::
    É possível que outros navegadores sejam compatíveis, mas sem garantia de estabilidade.

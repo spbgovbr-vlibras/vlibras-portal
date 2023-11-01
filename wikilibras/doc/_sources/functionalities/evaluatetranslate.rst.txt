@@ -1,0 +1,28 @@
+Avaliação da revisão de tradução
+================================
+
+A tradução sugerida pode ser avaliada apenas por usuários que possuem o perfil "LINGUISTA".
+Os passos para revisar uma tradução são:
+
+1. Na aba  "TAREFAS DISPONÍVEIS" o usuário terá acesso a todas as traduções que estão no estado "AGUARDANDO AVALIAÇÃO DA REVISÃO DE TRADUÇÃO".
+Para se tornar responsável pela tarefa de avaliar a animação basta clicar em "PEGAR TAREFA".
+
+.. figure:: ../_static/translate/evaluate/01-pegar_tarefa_avaliar_traducao.png
+   :align: center
+
+2. Em seguida a tarefa fica disponível na aba "MINHAS TAREFAS" para o usuário realizar a ação de avalição da revisão. Para avaliar 
+basta clicar em "APROVAÇÃO DE REVISÃO DE TRADUÇÃO".
+
+.. figure:: ../_static/translate/evaluate/02-avaliar_traducao.png
+   :align: center
+
+3. O usuário poderá ver no campo "FRASE EM PORTUGUÊS" a frase que foi solicitada para a tradução. No campo "TRADUÇÃO ATUAL", o usuário
+poderá ver a tradução gerada pelas ferramentas do VLibras e no campo "TRADUÇÃO SUGERIDA" poderá ver a tradução sugerida, podendo também
+realizar alguma correção na sugestão. Para avaliar a revisão tradução, o usuário precisará clicar no botão verde 
+"APROVAÇÃO DE REVISÃO DE TRADUÇÃO", caso queira aprovar ou no botão vermelhor "REPROVAÇÃO DE REVISÃO DE TRADUÇÃO", caso queira reprovar.
+
+.. note::
+  O usuário também poderá visualizar a animação gerada tanto da "TRADUÇÃO ATUAL" quanto da "TRADUÇÃO SUGERIDA" clicando no botão de "PLAY" contida nos dois campos.
+
+.. figure:: ../_static/translate/evaluate/03-realizar_avaliacao_traducao.png
+   :align: center

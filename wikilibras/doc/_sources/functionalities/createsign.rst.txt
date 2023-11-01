@@ -1,0 +1,24 @@
+Propor Sinal
+============
+
+Qualquer perfil está habilitado para propor um novo sinal na plataforma Wikilibras, 
+o processo de proposição baseia-se em 3 (três) passos:
+
+1. O primeiro passo é inserir o "NOME DO SINAL" e uma "FRASE EXEMPLO" referente ao sinal proposto.
+
+.. figure:: ../_static/propor_sinal.png
+   :align: center
+
+2. Em seguida, basta informar a "DESCRIÇÃO/SIGNIFICADO" do sinal. Este passo é bastante importante 
+para o moderador avaliar corretamente o sinal.
+
+.. figure:: ../_static/propor_sinal_2.png
+   :align: center
+
+3. Por último, basta preencher alguns campos como "CLASSE GRAMATICAL", "ASSUNTO" e "NACIONALIDADE"  
+que ajudam a diferenciar os diversos tipos de sinais com mesmo nome.
+
+.. figure:: ../_static/propor_sinal_3.png
+   :align: center
+
+Finalizados todos os passos sua proposição já está disponível para algum moderador avalia-lá.

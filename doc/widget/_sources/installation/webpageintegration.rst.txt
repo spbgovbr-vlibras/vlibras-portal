@@ -2,7 +2,8 @@ Integrando a uma Página Web
 ===========================
 
 A integração do VLibras Widget com um website é feita com a inserção de alguns 
-fragmentos de código antes do fechamento da tag **<body>** de uma página HTML. Veja o exemplo:
+trechos de código antes do fechamento da tag **<body>** de uma página HTML. 
+Veja o exemplo:
 
 .. code-block:: HTML
    

@@ -30,6 +30,8 @@ Manual de Instalação da Ferramenta VLibras Widget
    functionalities/captionoption
    functionalities/avatarchange
    functionalities/widgetposition
+   functionalities/widgettransparency
    functionalities/regionselection
    functionalities/dictionary
    functionalities/review
+   functionalities/customizeavatar

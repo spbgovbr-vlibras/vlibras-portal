@@ -1,0 +1,11 @@
+Apresentação
+============
+
+O VLibras Widget é um recurso de acessibilidade desenvolvido para tornar
+páginas web acessíveis para pessoas surdas. Com a tradução automática de
+Português Brasileiro para a Língua Brasileira de Sinais (LIBRAS), essa
+ferramenta permite que usuários surdos sejam capazes de consumir 
+conteúdos de texto em qualquer website.
+
+Este manual tem como objetivo apresentar os procedimentos para a instalação
+da ferramenta VLibras Widget em páginas da web.

@@ -1,0 +1,27 @@
+Avaliar Animação
+================
+
+A animação pode ser avaliada apenas para usuários cujo perfil seja "ESPECIALISTA". 
+Os passos para avaliar uma animação são:
+
+1. Na aba  "TAREFAS DISPONÍVEIS" o usuário terá acesso a todas os sinais que estão no estado 
+"AGUARDANDO AVALIAÇÃO ANIMAÇÃO". Para se tornar responsável pela tarefa de avaliar a animação basta clicar em "PEGAR TAREFA".
+
+.. figure:: ../_static/pegar_tarefa_animar_animacao.png
+   :align: center
+
+2. Em seguida a tarefa fica disponível para o usuário realizar a ação de avaliação. Para avaliar 
+basta clicar em "AVALIAR ANIMAÇÃO".
+
+.. figure:: ../_static/avaliar_animacao.png
+   :align: center
+
+3. No canto superior direito o especialista pode visualizar a animação renderizada. No canto inferior direito o especialista 
+pode "APROVAR ANIMAÇÃO" ou "REPROVAR ANIMAÇÃO". Para caso de aprovação o sinal 
+passa para o estado de "AGUARDANDO PUBLICAÇÃO" em caso de reprovação o sinal volta para o estado "AGUARDANDO ANIMAÇÃO".
+
+.. note::
+  Atualmente é necessário no mínimo 3 (três) avaliações positivas ou negativas para ocorrer a mudança de estado do sinal.
+
+.. figure:: ../_static/animacao_avaliar_modal.png
+   :align: center

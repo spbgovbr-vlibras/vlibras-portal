@@ -1,0 +1,17 @@
+Fluxo de Trabalho - Sinais
+==========================
+
+Com base nos perfis de usuários, o workflow de criação/revisão dos sinais foi 
+planejado e estruturado da seguinte forma: 
+
+.. figure:: ../_static/workflow_wikilibras.png
+   :align: center
+
+1. Inicialmente, um usuário de qualquer perfil (colaborador, especialista, moderador, animador, ou o próprio VLibras) faz a proposição de um novo sinal (ou a solicitação de correção de um sinal existente no VLibras), incluindo algumas informações relacionados ao sinal tais como: descrição do sinal, exemplo de uso, classe gramatical, assunto, entre outros;
+2. A proposição do sinal é então avaliada por um moderador;
+3. Caso a proposição seja aprovada pelo moderador, o sinal passa para o status “Aguardando Vídeo de Referência”, em que espera-se que um usuário de qualquer perfil submeta um vídeo com uma representação daquele sinal;
+4. Após a submissão do vídeo de referência, o sinal entra no estado “Aguardando Avaliação do Vídeo”, em que usuários especialistas em Libras devem avaliar o vídeo de referência e as informações do sinal;
+5. Caso o vídeo e as informações do sinal sejam aprovados por um determinado número de especialistas, ele é considerado aprovado e passa para a próxima etapa do processo. Se ele for reprovado pelo mesmo número de especialistas, no entanto, ele é considerado reprovado e a proposição é excluída;
+6. Após a aprovação do vídeo e das suas informações, o sinal passa para o estado “Aguardando Animação”. Nesse momento, um usuário animador deve baixar o modelo do avatar do VLibras, produzir uma animação 3D do sinal usando a ferramenta Blender e submetê-la ao WikiLibras;
+7. Depois do animador produzir a animação 3D o sinal passa para o estado "Aguardando Renderização" e o sistema produz um video da animação 3D enviada. Após a geração do vídeo da animação.
+8. Em seguida, o vídeo da animação deve ser avaliada pelos especialistas. Caso ela seja aprovada por um determinado número de especialistas, o sinal é considerado aprovado e passa para o processo de publicação do sinal. Caso a animação seja reprovada pelo mesmo número de especialistas, a animação é considerada reprovada e retorna-se para o estado “Aguardando Animação”; 

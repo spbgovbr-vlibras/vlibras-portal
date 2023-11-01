@@ -3,7 +3,7 @@ Seleção de Região
 
 A seleção de região é uma funcionalidade que possibilita a escolha de um dicionário
 específico de sinalizações. Para selecionar o dicionário de uma região, deve-se
-clicar no botão *Menu* (☰), depois no botão *Regionalismo* e selecionar a região desejada. 
+clicar no botão **Menu** (☰), depois no botão **Regionalismo** e selecionar a região desejada. 
 
 .. raw:: html
 
@@ -12,6 +12,6 @@ clicar no botão *Menu* (☰), depois no botão *Regionalismo* e selecionar a re
    </video>
    <br></br>
 
-.. note::
+.. attention::
    Em casos onde um sinal não exista no dicionário de uma região, este sinal é buscado
    no dicionário nacional (BR).

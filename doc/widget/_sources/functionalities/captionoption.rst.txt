@@ -3,7 +3,7 @@ Opção de Legendas
 
 A opção de legendas é uma funcionalidade que auxilia na identificação
 das palavras que estão sendo traduzidas pelo avatar, elas podem ser habilitadas ou 
-desabilitadas clicando no *Balão de fala* que se encontra ao lado direito do botão de
+desabilitadas clicando no **Balão de fala** que se encontra ao lado direito do botão de
 velocidade.
 
 .. raw:: html

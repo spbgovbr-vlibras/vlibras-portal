@@ -1,0 +1,57 @@
+Consultar Tarefas
+=================
+
+Existem 4 (quatro) tipos de consultas de tarefas que podem ser visualizadas na plataforma. 
+Cada consulta baseia-se nas suas permissões como um usuário dentro do sistema.
+
+Minhas Tarefas
+-------------------
+
+Em "MINHAS TAREFAS" o usuário tem acesso a todas as tarefas em que o mesmo é responsável. 
+A tela apresenta o tipo da tarefa seguinda por um conjunto de estados em que cada tarefa se encontra. 
+Ao clicar na tarefa desejada o conjunto de ações disponíveis fica visível para o usuário. 
+
+
+.. note::
+   O usuário tem o prazo de 1 (uma) semana para finalizar a tarefa caso contrário 
+   a tarefa volta a ficar disponível automaticamente.
+
+
+.. figure:: ../_static/minhas_tarefas.png
+   :align: center
+
+Tarefas Disponíveis
+---------------------
+
+Na aba "TAREFAS DISPONÍVEIS" é onde o usuário torna-se responsável por uma tarefa. 
+Para torna-se responsável por uma tarefa basta clicar na tarefa desejada, em seguinda 
+"PEGAR TAREFA". 
+
+.. figure:: ../_static/tarefas_disponiveis.png
+   :align: center
+
+Ao final deste processo a tarefa passa para aba de "MINHAS TAREFAS".
+
+
+Tarefas Pendentes Onde Atuei
+-------------------------------
+
+Em "TAREFAS PENDENTES ONDE ATUEI" apresenta um conjunto de tarefas onde usuário 
+logado teve participação porém as mesmas não chegaram a um estado de conclusão. 
+
+.. figure:: ../_static/pendentes_nao_finalizadas.png
+   :align: center
+
+Nessa aba não é possível realizar nenhuma ação que modifique a tarefa.
+
+
+Tarefas Concluídas Onde Atuei
+-------------------------------
+
+Em "TAREFAS CONCLUÍDAS ONDE ATUEI" apresenta um conjunto de tarefas onde usuário 
+logado teve participação e as mesmas chegaram a um estado de conclusão. 
+
+.. figure:: ../_static/pendentes_nao_finalizadas.png
+   :align: center
+   
+Nessa aba não é possível realizar nenhuma ação que modifique a tarefa.

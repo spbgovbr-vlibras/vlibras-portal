@@ -1,0 +1,39 @@
+Requisitos para personalização dos avatares
+=================
+
+Atualmente, a personalização dos avatares do VLibras para websites é um recurso EXCLUSIVO para instituições parceiras do projeto VLibras, que colaboram e apoiam o projeto de alguma forma. Nessa personalização, é possível adicionar um logotipo da instituição (no centro ou no peito da camisa), alterar a cor da blusa, da calça, da pele do personagem, entre outros.
+
+Para que os avatares do VLibras sejam personalizados em seu website, você deve ser uma instituição parceira do projeto, e precisa entrar em contato através do email <cgpsp@economia.gov.br> para fazer a sua solicitação.
+
+Se você também desejar incluir o logotipo da sua instituição na blusa dos avatares, é necessário que seja também fornecida uma imagem atendendo aos seguintes critérios: 
+
+.. figure:: ../_static/image3.png
+   :align: center
+
+- Dimensão de 500px X 500px;
+- Sem cor de fundo;
+- Logo posicionado com margem de segurança de 75px entre os limites da imagem;
+- Salvar arquivo em PNG.
+
+Adotando os critérios listados o logotipo será inserido da seguinte forma:
+
+O que NÃO fazer
+----------------
+
+**Inserir imagem com fundo**
+
+.. figure:: ../_static/image2.png
+   :align: center
+
+
+Caso a imagem possua cor de fundo ela será inserida no avatar quebrando o padrão visual estabelecido.
+
+**Esticar imagem para ocupar toda a área de 200px X 200px**
+
+.. figure:: ../_static/image4.png
+   :align: center
+
+Caso a imagem seja deformada para a dimensão de 500px ela será inserida no avatar quebrando o padrão visual estabelecido.
+
+
+Depois que a personalização for aprovada para o seu site, você receberá um código específico para integração do VLibras ao seu website. 

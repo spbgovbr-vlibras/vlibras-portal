@@ -1,0 +1,10 @@
+Visão Geral
+===========
+
+Os surdos enfrentam bastante dificuldade para ler, escrever e se comunicar
+na língua oral do seu país. Dessa forma, para tentar reduzir esses 
+problemas, o objetivo da ferramenta computacional de código aberto, 
+denominada Wikilibras, consiste em uma rede de colaboradores capaz de criar, 
+revisar, animar e avaliar sinais em Libras, com objetivo de compor/complementar
+o dicionário de sinais da Suíte VLibras.
+ 
