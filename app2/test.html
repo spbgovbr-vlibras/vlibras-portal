@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Meu texto</h1>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <script src="http://127.0.0.1:5500/widget/app/vlibras-plugin.js"></script>
+    <script>
+      // new window.VLibras.Widget('', 'https://vlibras.gov.br/config/configs.json', '0.5', 'R');
+      new window.VLibras.Widget({
+        rootPath: '',
+        personalization: 'https://vlibras.gov.br/config/configs.json',
+        opacity: 0.5,
+        position: 'R',
+        avatar: 'random',
+      });
+    </script>
+  </body>
+</html>
