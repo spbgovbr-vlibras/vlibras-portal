@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /files/
+Disallow: /doc/
+Disallow: /wikilibras/
+Allow: /
+
+Sitemap: https://vlibras-portal-dth.vlibras.gov.br/sitemap.xml

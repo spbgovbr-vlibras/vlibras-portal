@@ -1,0 +1,4 @@
+Contact: 
+Expires: 2027-07-30T23:59:59Z
+Preferred-Languages: pt-BR, en
+Canonical: https://vlibras-portal-dth.vlibras.gov.br/.well-known/security.txt
