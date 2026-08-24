@@ -1,9 +1,9 @@
 {
 	"companyName": "Vlibras",
 	"productName": "Vlibras",
-	"dataUrl": "playerweb.data.unityweb?v=7.6.0",
-	"wasmCodeUrl": "playerweb.wasm.code.unityweb?v=7.6.0",
-	"wasmFrameworkUrl": "playerweb.wasm.framework.unityweb?v=7.6.0",
+	"dataUrl": "playerweb.data.unityweb?v=7.7.0",
+	"wasmCodeUrl": "playerweb.wasm.code.unityweb?v=7.7.0",
+	"wasmFrameworkUrl": "playerweb.wasm.framework.unityweb?v=7.7.0",
 	"TOTAL_MEMORY": 268435456,
 	"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 	"webglContextAttributes": { "preserveDrawingBuffer": false },

@@ -57,7 +57,7 @@ function renderWidget() {
 
     const script = document.createElement("script");
     script.type = "module";
-    script.src = `${vw.path}/vlibras-plugin-app.js?v=7.6.0`;
+    script.src = `${vw.path}/vlibras-plugin-app.js?v=7.7.0`;
     script.async = true;
     script.onload = () => {
       widget = document.getElementById("vlibras-app-root");
