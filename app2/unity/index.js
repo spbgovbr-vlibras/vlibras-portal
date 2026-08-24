@@ -17,7 +17,7 @@ const postEvent = (event, data) => {
 	}
 };
 
-gameInstance = UnityLoader.instantiate("gameContainer", "playerweb.json?v=7.5.0", {
+gameInstance = UnityLoader.instantiate("gameContainer", "playerweb.json?v=7.6.0", {
 	onProgress: (_, progress) => {
 		postEvent("update_progress", progress);
 	},
@@ -35,8 +35,12 @@ gameInstance = UnityLoader.instantiate("gameContainer", "playerweb.json?v=7.5.0"
 });
 
 window.addEventListener("message", (e) => {
+	if (!gameInstance) return;
+
 	const m = e.data;
-	if (!gameInstance || m.type !== "unity") return;
+
+	if (m.type === "get_unity_instance") return gameInstance;
+	if (m.type !== "unity") return;
 
 	gameInstance.SendMessage(m.object, m.method, m.params);
 });
