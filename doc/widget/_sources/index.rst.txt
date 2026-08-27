@@ -17,21 +17,24 @@ Manual de Instalação da Ferramenta VLibras Widget
    :maxdepth: 2
    :caption: Instalação
 
-   installation/systemrequirements
-   installation/webpageintegration
+   installation/system-requirements
+   installation/web-page-integration
+   installation/content-security-policy
 
 .. toctree::
    :maxdepth: 2
    :caption: Funcionalidades
 
-   functionalities/texttranslation
-   functionalities/playpause
-   functionalities/speedselection
-   functionalities/captionoption
-   functionalities/avatarchange
-   functionalities/widgetposition
-   functionalities/widgettransparency
-   functionalities/regionselection
+   functionalities/text-translation
+   functionalities/translator
+   functionalities/playpauserestart
+   functionalities/speed-option
+   functionalities/subtitle-option
+   functionalities/expanded-mode
+   functionalities/avatar-change
+   functionalities/widget-position
+   functionalities/widget-opacity
+   functionalities/regionalism
    functionalities/dictionary
    functionalities/review
-   functionalities/customizeavatar
+   functionalities/customize-avatar

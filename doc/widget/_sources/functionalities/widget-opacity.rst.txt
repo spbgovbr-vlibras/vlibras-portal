@@ -1,0 +1,19 @@
+Opacidade do Widget
+===================
+
+O *widget* também permite ajustar o nível de opacidade do plano de fundo da região
+que comporta o avatar. Para isso, deve-se acessar as **Configurações** clicando no
+ícone de engrenagem (:material-regular:`settings;1.2rem`) localizado no canto
+inferior direito da janela do *widget*, e ajustar o controle deslizante da opção
+**Opacidade**.
+
+.. important::
+   Essa opção não está disponível na versão do VLibras Widget distribuída como
+   extensão de navegador.
+
+.. raw:: html
+
+   <video class="align-center" width="100%" style="border: 1px solid #ccc; border-radius: 12px;" autoplay loop>
+    <source src="../_static/opacity.mp4" type="video/mp4" />
+   </video>
+   <br></br>

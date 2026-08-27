@@ -1,0 +1,17 @@
+Posição do Widget
+=================
+
+Por padrão, a janela do *widget* é carregada no lado direito da página web. Essa
+posição inicial só pode ser alterada em tempo de integração, através do
+parâmetro ``position`` (veja :doc:`../installation/web-page-integration`), que
+aceita os valores **"R"** (direita) ou **"L"** (esquerda).
+
+Além disso, o usuário pode reposicionar livremente a janela do *widget* na tela
+arrastando-a a partir da sua barra superior ou inferior.
+
+.. raw:: html
+
+   <video class="align-center" width="100%" style="border: 1px solid #ccc; border-radius: 12px;" autoplay loop>
+    <source src="../_static/position.mp4" type="video/mp4" />
+   </video>
+   <br></br>

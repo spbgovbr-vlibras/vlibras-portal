@@ -1,0 +1,18 @@
+Seleção de Região
+=================
+
+A seleção de região é uma funcionalidade que possibilita a escolha de um dicionário
+específico de sinalizações. Para selecionar o dicionário de uma região, deve-se
+ir até as **Configurações**, clicando no ícone de engrenagem (:material-regular:`settings;1.2rem`),
+clicar na bandeira em destaque na opção **Regionalismo** e selecionar a região desejada.
+
+.. raw:: html
+
+   <video class="align-center" height="320"  autoplay loop>
+    <source src="../_static/regionalism.mp4" type="video/mp4" />
+   </video>
+   <br></br>
+
+.. attention::
+   Em casos onde um sinal não exista no dicionário de uma região, este sinal é buscado
+   no dicionário nacional (BR).

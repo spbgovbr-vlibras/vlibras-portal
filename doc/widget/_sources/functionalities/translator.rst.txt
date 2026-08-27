@@ -1,0 +1,14 @@
+Tradutor
+========
+
+Além da possibilidade de traduzir os textos presentes na página, o *widget* permite
+que os usuários forneçam textos para tradução. Para isso, deve-se abrir o menu
+(:material-regular:`menu;1.2rem`), localizado no canto superior esquerdo da janela
+do *widget*, e selecionar a opção **Tradutor**.
+
+.. raw:: html
+
+   <video class="align-center" height="320"  autoplay loop>
+    <source src="../_static/translator.mp4" type="video/webm" />
+   </video>
+   <br></br>

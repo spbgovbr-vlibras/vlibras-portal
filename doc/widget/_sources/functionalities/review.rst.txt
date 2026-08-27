@@ -1,27 +1,32 @@
 Avaliação e Revisão de Tradução
 ===============================
 
-O VLibras Widget possui uma funcionalidade que permite o usuário avaliar 
+O VLibras Widget possui uma funcionalidade que permite o usuário avaliar
 uma tradução como "Gostei" ou "Não gostei". Esse recurso é habilitado
-ao fim de cada tradução e pode ser usado clicando no botão **Avaliar**,
-que surge no canto inferior direito da janela do widget, e respondendo
-a pergunta "Gostou da tradução?", clicando em **Sim** ou **Não**.
+ao fim de uma tradução e pode ser usado abrindo a janela de **Feedback**,
+clicando no botão **Avaliar**, que surge logo acima dos controles na janela
+do *widget*, e respondendo a pergunta **"Gostou da tradução?"**, clicando em
+**Sim** ou **Não**.
+
+.. important::
+   Ao clicar em **Sim**, é exibida uma etapa de confirmação ("Confirmar
+   avaliação positiva?") antes do feedback positivo ser enviado.
 
 .. raw:: html
 
-   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
-    <source src="../_static/rating.webm" type="video/webm" />
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/send_positive_feedback.mp4" type="video/mp4" />
    </video>
    <br></br>
 
-Além da avaliação, a ferramenta também permite a revisão da tradução. A opção de revisar
-um texto traduzido aparece sempre após uma avaliação negativa. Ao clicar no botão **Sugerir
-edição**, o usuário é levado a uma tela de edição de texto preenchida com a glosa da tradução.
+Além da avaliação, a ferramenta também permite a revisão da tradução.
+Após uma análise negativa, é mostrada uma janela de sugestão de texto
+preenchida com a glosa da tradução.
 
 .. raw:: html
 
-   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
-    <source src="../_static/review.webm" type="video/webm" />
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/send_negative_feedback.mp4" type="video/mp4" />
    </video>
    <br></br>
 
@@ -32,18 +37,18 @@ lista de palavras que o editor preencherá automaticamente.
 
 .. raw:: html
 
-   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
-    <source src="../_static/review_sugestion.webm" type="video/webm" />
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/feedback_suggestion.mp4" type="video/mp4" />
    </video>
    <br></br>
 
 
 Após a correção da glosa, a animação da sugestão de tradução pode ser pré-visualizada
-clicando no botão **Ver em LIBRAS** e enviada clicando no botão **Enviar Sugestão**.
+clicando no botão **Reproduzir** e enviada clicando no botão **Enviar Sugestão**.
 
 .. raw:: html
 
-   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
-    <source src="../_static/review_visualization.webm" type="video/webm" />
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/feedback_suggestion_play.mp4" type="video/mp4" />
    </video>
    <br></br>

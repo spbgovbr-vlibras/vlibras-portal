@@ -1,0 +1,16 @@
+Expandir Janela
+===============
+
+A fim de possibilitar ao usuário uma visão ampla e mais detalhada das animações
+realizadas pelos avatares, o *widget* conta com a funcionalidade de **Expandir**,
+ativada clicando no ícone de expansão (:material-regular:`open_in_full;1.2rem`), localizado no canto
+superior direito da janela do *widget*, ao lado do botão de fechar. Clicando
+novamente no mesmo botão (agora com o ícone de recolher), o *widget* volta para
+seu tamanho original.
+
+.. raw:: html
+
+   <video class="align-center" width="100%" style="border: 1px solid #ccc; border-radius: 12px;" autoplay loop>
+    <source src="../_static/expanded_mode.mp4" type="video/mp4" />
+   </video>
+   <br></br>
