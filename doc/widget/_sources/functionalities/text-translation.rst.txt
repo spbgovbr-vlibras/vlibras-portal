@@ -1,0 +1,23 @@
+Tradução de Texto
+=================
+
+A tradução com o VLibras Widget é feita pela seleção do texto que se deseja traduzir da página.
+Para isso, o usuário deve iniciar a ferramenta clicando no ícone flutuante presente no lado
+direto do website.
+
+.. raw:: html
+
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/start_widget.mp4" type="video/mp4" />
+   </video>
+   <br></br>
+
+Com o *widget* aberto, ao passar o ponteiro do mouse por um elemento de texto, este é realçado 
+indicando que pode ser traduzido. Clicando com o botão esquedo do mouse, a ferramenta iniciará a tradução.
+
+.. raw:: html
+
+   <video class="align-center" width="100%" style="border: 1px solid #ccc; border-radius: 12px;" autoplay loop>
+    <source src="../_static/text_translator.mp4" type="video/mp4" />
+   </video>
+   <br></br>

@@ -1,0 +1,15 @@
+Troca de Avatar
+===============
+
+Atualmente o VLibras possui três avatares intérpretes (Ícaro, Hosana e Guga)
+que podem ser selecionados. No *widget*, a mudança pode ser feita clicando
+no botão flutuante com o ícone do avatar atual, que aparece no canto
+inferior direito da janela da ferramenta assim que a animação de boas-vindas
+termina, e selecionando o avatar desejado na lista.
+
+.. raw:: html
+
+   <video class="align-center" height="320"  autoplay loop>
+    <source src="../_static/change_avatar.mp4" type="video/mp4" />
+   </video>
+   <br></br>

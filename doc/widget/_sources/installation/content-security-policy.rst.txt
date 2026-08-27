@@ -1,0 +1,32 @@
+Content Security Policy (CSP)
+------------------------------
+
+Se o seu site utiliza uma política de segurança de conteúdo (CSP), é necessário 
+liberar alguns domínios para que o VLibras Widget funcione corretamente:
+
+- Adicionar ``https://vlibras.gov.br`` ao ``frame-src``;
+- Adicionar ``https://vlibras.gov.br`` e ``https://cdn.jsdelivr.net`` ao ``font-src``.
+
+.. code-block:: text
+
+  Content-Security-Policy: frame-src https://vlibras.gov.br; font-src https://vlibras.gov.br https://cdn.jsdelivr.net;
+
+**Por que "frame-src"?**
+
+O intérprete (avatar 3D) é renderizado dentro de um ``<iframe>`` que aponta para 
+``https://vlibras.gov.br/app/unity/index.html``. Sem liberar esse domínio no 
+``frame-src``, o navegador bloqueia o carregamento do iframe e o avatar não aparece.
+
+**Por que "font-src"?**
+
+O Widget carrega a fonte **Rawline** a partir de 
+``https://vlibras.gov.br/app/assets/fonts/rawline/*.woff2``. Porém, esse endereço 
+não serve o arquivo diretamente — ele responde com um redirecionamento (302) para 
+um CDN. Como o navegador valida a CSP contra a URL final (após o redirect), e não 
+contra a URL original solicitada, é necessário liberar **ambos** os domínios em 
+``font-src`` — caso contrário, o carregamento da fonte é bloqueado mesmo com 
+``vlibras.gov.br`` liberado.
+
+.. important::
+  Caso o ``font-src`` não seja configurado corretamente, o Widget ainda funciona, 
+  mas utiliza a fonte padrão do sistema no lugar da Rawline.

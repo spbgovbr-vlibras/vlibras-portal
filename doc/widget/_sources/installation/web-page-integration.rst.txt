@@ -1,0 +1,92 @@
+Integrando a uma Página Web
+===========================
+
+A integração do VLibras Widget com um website é feita adicionando o script 
+abaixo em qualquer parte da página HTML:
+
+.. code-block:: HTML
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+Apenas isso já é suficiente — o Widget é inicializado automaticamente, sem 
+necessidade de nenhuma chamada adicional.
+
+Caso queira personalizar o comportamento padrão da ferramenta, é possível 
+adicionar um segundo script chamando ``new window.VLibras.Widget()``. Essa 
+chamada aceita dois formatos: um objeto de configuração ou os parâmetros 
+passados diretamente, em sequência.
+
+**Passando um objeto de configuração**
+
+.. code-block:: HTML
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget({
+        rootPath: 'https://vlibras.gov.br/app',
+        personalization: 'https://vlibras.gov.br/config/default_logo.json',
+        avatar: 'random',
+        position: 'R',
+    });
+  </script>
+
+**Passando os parâmetros diretamente**
+
+.. code-block:: HTML
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget(
+      'https://vlibras.gov.br/app',
+      'https://vlibras.gov.br/config/default_logo.json',
+      'random',
+      'R'
+    );
+  </script>
+
+.. important::
+  Nesse formato, a ordem dos parâmetros deve ser respeitada: 
+  ``rootPath``, ``personalization``, ``avatar`` e ``position``, nessa sequência.
+
+Parâmetros
+-----------
+
+O VLibras Widget possibilita definir alguns valores padrão que nos permitem 
+personalizar a ferramenta de acordo com nossas preferências. Para isso, deve-se 
+passar um objeto (ou os parâmetros diretamente) para o construtor do Widget 
+(``new window.VLibras.Widget();``) com estes valores. Confira cada um deles a seguir.
+
+• **rootPath**
+
+  Define o caminho da *build* local da aplicação. A fim de otimizar o processo de 
+  carregamento da ferramenta, você pode alocar a versão compilada do widget em seu próprio 
+  servidor e definir o link de acesso na implementação.
+
+  .. important::
+    Esse método de implementação impede o widget no seu site receber atualizações automáticas 
+    e correções de possíveis problemas.
+
+• **personalization**
+
+  Define o link com as customizações personalizadas dos avatares.
+
+  .. important::
+    A personaliação dos avatares é um rescurso exclusivo de instituições parceiras
+    do projeto. Saiba mais em :doc:`../functionalities/customize-avatar`.
+
+• **position:** 
+
+  Define a posição inicial do Widget. Segue a tabela com os valores disponíveis:
+
+  ===========================  =====================
+  **Valor**                    **Posição**
+  ---------------------------  ---------------------
+  **R** *(right)*              Á direita (padrão)
+  **L** *(left)*               Á esquerda
+  ===========================  =====================
+
+• **avatar:**
+
+  Define o avatar padrão. No momento, o VLibras conta com **"icaro"** (padrão), **"hosana"** e **"guga"**. 
+  Também é possível utilizar **"random"** para escolher um avatar aleatório. Se não for especificado, o Widget utilizará o avatar Icaro como padrão.
+ 

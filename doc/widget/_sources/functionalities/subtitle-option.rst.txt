@@ -1,0 +1,15 @@
+Opção de Legendas
+=================
+
+A opção de legendas é uma funcionalidade que auxilia na identificação
+das palavras que estão sendo traduzidas pelo avatar, elas podem ser habilitadas ou
+desabilitadas clicando no **Ícone de legenda** (:material-regular:`subtitles;1.2rem`)
+que se encontra na barra de controles inferior do *widget*, ao lado do
+seletor de emoções.
+
+.. raw:: html
+
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/toggle_subtitle.mp4" type="video/mp4" />
+   </video>
+   <br></br>

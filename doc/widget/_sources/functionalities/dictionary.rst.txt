@@ -2,14 +2,15 @@ Dicionário
 ==========
 
 Para a visualização de todos os sinais disponíveis na ferramenta, existe um dicionário
-de animações que é formado por uma lista de todas as palavras traduzidas pela equipe do 
-VLibras. Esse dicionário pode ser acessado clicando no botão **Menu** (☰) e depois no botão
-**Dicionário**. A visualização de um sinal pode ser feita selecionando a palavra correspondente
-na lista. 
+de animações que é formado por uma lista de todas as palavras traduzidas pela equipe do
+VLibras. Esse dicionário pode ser acessado abrindo o menu (:material-regular:`menu;1.2rem`),
+localizado no canto superior esquerdo da janela do *widget*, e selecionando a opção
+**Dicionário**. A visualização de um sinal pode ser feita selecionando a palavra
+correspondente na lista.
 
 .. raw:: html
 
-   <video class="align-center" width="384" height="288" position="absolute" autoplay loop>
-    <source src="../_static/dictionary.webm" type="video/webm" />
+   <video class="align-center" height="320" autoplay loop>
+    <source src="../_static/dictionary.mp4" type="video/mp4" />
    </video>
    <br></br>
