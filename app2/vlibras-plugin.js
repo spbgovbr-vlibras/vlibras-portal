@@ -10,7 +10,7 @@
     avatar,
     position,
   ) {
-    if (typeof path === "object") {
+    if (path && typeof path === "object") {
       Object.assign(vw, {
         path: path.rootPath || vw.path,
         avatar: path.avatar,
@@ -58,7 +58,7 @@
 
       const script = document.createElement("script");
       script.type = "module";
-      script.src = `${vw.path}/vlibras-plugin-app.js?v=7.9.1`;
+      script.src = `${vw.path}/vlibras-plugin-app.js?v=7.10.0`;
       script.async = true;
       script.onload = () => {
         widget = document.getElementById("vlibras-app-root");
