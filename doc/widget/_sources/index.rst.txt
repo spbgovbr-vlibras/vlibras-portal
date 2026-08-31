@@ -18,7 +18,7 @@ Manual de Instalação da Ferramenta VLibras Widget
    :caption: Instalação
 
    installation/system-requirements
-   installation/web-page-integration
+   installation/webpageintegration
    installation/content-security-policy
 
 .. toctree::

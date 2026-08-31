@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="pt-BR" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Integrando a uma Página Web &mdash; Documentação Manual de Instruções da Ferramenta VLibras Widget 7.0.0</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=11121a99"></script>
+        <script src="../_static/doctools.js?v=9bcbadda"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=71a39b36"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Buscar" href="../search.html" />
+    <link rel="next" title="Content Security Policy (CSP)" href="content-security-policy.html" />
+    <link rel="prev" title="Requisitos do Sistema" href="system-requirements.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Manual de Instruções da Ferramenta VLibras Widget
+          </a>
+              <div class="version">
+                7.0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Pesquisar documentos" aria-label="Pesquisar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
+              <p class="caption" role="heading"><span class="caption-text">Introdução</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/presentation.html">Apresentação</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/overview.html">Visão Geral</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Instalação</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="system-requirements.html">Requisitos do Sistema</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Integrando a uma Página Web</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#parametros">Parâmetros</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-security-policy.html">Content Security Policy (CSP)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Funcionalidades</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/text-translation.html">Tradução de Texto</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/translator.html">Tradutor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/playpauserestart.html">Reproduzir, Pausar e Reiniciar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/speed-option.html">Seleção de Velocidade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/subtitle-option.html">Opção de Legendas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/expanded-mode.html">Expandir Janela</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/avatar-change.html">Troca de Avatar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/widget-position.html">Posição do Widget</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/widget-opacity.html">Opacidade do Widget</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/regionalism.html">Seleção de Região</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/dictionary.html">Dicionário</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/review.html">Avaliação e Revisão de Tradução</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functionalities/customize-avatar.html">Requisitos para personalização dos avatares</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Menu de navegação móvel" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Manual de Instruções da Ferramenta VLibras Widget</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Navegação da página">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Integrando a uma Página Web</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/installation/webpageintegration.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="integrando-a-uma-pagina-web">
+<h1>Integrando a uma Página Web<a class="headerlink" href="#integrando-a-uma-pagina-web" title="Link para este cabeçalho"></a></h1>
+<p>A integração do VLibras Widget com um website é feita adicionando o script
+abaixo em qualquer parte da página HTML:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://vlibras.gov.br/app/vlibras-plugin.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Apenas isso já é suficiente — o Widget é inicializado automaticamente, sem
+necessidade de nenhuma chamada adicional.</p>
+<p>Caso queira personalizar o comportamento padrão da ferramenta, é possível
+adicionar um segundo script chamando <code class="docutils literal notranslate"><span class="pre">new</span> <span class="pre">window.VLibras.Widget()</span></code>. Essa
+chamada aceita dois formatos: um objeto de configuração ou os parâmetros
+passados diretamente, em sequência.</p>
+<p><strong>Passando um objeto de configuração</strong></p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://vlibras.gov.br/app/vlibras-plugin.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="w">  </span><span class="ow">new</span><span class="w"> </span><span class="nb">window</span><span class="p">.</span><span class="nx">VLibras</span><span class="p">.</span><span class="nx">Widget</span><span class="p">({</span>
+<span class="w">      </span><span class="nx">rootPath</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;https://vlibras.gov.br/app&#39;</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">personalization</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;https://vlibras.gov.br/config/default_logo.json&#39;</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">avatar</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;random&#39;</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">position</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;R&#39;</span><span class="p">,</span>
+<span class="w">  </span><span class="p">});</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p><strong>Passando os parâmetros diretamente</strong></p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://vlibras.gov.br/app/vlibras-plugin.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="w">  </span><span class="ow">new</span><span class="w"> </span><span class="nb">window</span><span class="p">.</span><span class="nx">VLibras</span><span class="p">.</span><span class="nx">Widget</span><span class="p">(</span>
+<span class="w">    </span><span class="s1">&#39;https://vlibras.gov.br/app&#39;</span><span class="p">,</span>
+<span class="w">    </span><span class="s1">&#39;https://vlibras.gov.br/config/default_logo.json&#39;</span><span class="p">,</span>
+<span class="w">    </span><span class="s1">&#39;random&#39;</span><span class="p">,</span>
+<span class="w">    </span><span class="s1">&#39;R&#39;</span>
+<span class="w">  </span><span class="p">);</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Nesse formato, a ordem dos parâmetros deve ser respeitada:
+<code class="docutils literal notranslate"><span class="pre">rootPath</span></code>, <code class="docutils literal notranslate"><span class="pre">personalization</span></code>, <code class="docutils literal notranslate"><span class="pre">avatar</span></code> e <code class="docutils literal notranslate"><span class="pre">position</span></code>, nessa sequência.</p>
+</div>
+<section id="parametros">
+<h2>Parâmetros<a class="headerlink" href="#parametros" title="Link para este cabeçalho"></a></h2>
+<p>O VLibras Widget possibilita definir alguns valores padrão que nos permitem
+personalizar a ferramenta de acordo com nossas preferências. Para isso, deve-se
+passar um objeto (ou os parâmetros diretamente) para o construtor do Widget
+(<code class="docutils literal notranslate"><span class="pre">new</span> <span class="pre">window.VLibras.Widget();</span></code>) com estes valores. Confira cada um deles a seguir.</p>
+<ul>
+<li><p><strong>rootPath</strong></p>
+<p>Define o caminho da <em>build</em> local da aplicação. A fim de otimizar o processo de
+carregamento da ferramenta, você pode alocar a versão compilada do widget em seu próprio
+servidor e definir o link de acesso na implementação.</p>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Esse método de implementação impede o widget no seu site receber atualizações automáticas
+e correções de possíveis problemas.</p>
+</div>
+</li>
+<li><p><strong>personalization</strong></p>
+<p>Define o link com as customizações personalizadas dos avatares.</p>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>A personaliação dos avatares é um rescurso exclusivo de instituições parceiras
+do projeto. Saiba mais em <a class="reference internal" href="../functionalities/customize-avatar.html"><span class="doc">Requisitos para personalização dos avatares</span></a>.</p>
+</div>
+</li>
+<li><p><strong>position:</strong></p>
+<p>Define a posição inicial do Widget. Segue a tabela com os valores disponíveis:</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><strong>Valor</strong></p></td>
+<td><p><strong>Posição</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>R</strong> <em>(right)</em></p></td>
+<td><p>Á direita (padrão)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>L</strong> <em>(left)</em></p></td>
+<td><p>Á esquerda</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p><strong>avatar:</strong></p>
+<p>Define o avatar padrão. No momento, o VLibras conta com <strong>“icaro”</strong> (padrão), <strong>“hosana”</strong> e <strong>“guga”</strong>.
+Também é possível utilizar <strong>“random”</strong> para escolher um avatar aleatório. Se não for especificado, o Widget utilizará o avatar Icaro como padrão.</p>
+</li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
+        <a href="system-requirements.html" class="btn btn-neutral float-left" title="Requisitos do Sistema" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="content-security-policy.html" class="btn btn-neutral float-right" title="Content Security Policy (CSP)" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Direitos autorais 2026, Suíte VLibras.</p>
+  </div>
+
+  Compilado com <a href="https://www.sphinx-doc.org/">Sphinx</a> usando um
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    fornecido por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
