@@ -3,7 +3,7 @@ Posição do Widget
 
 Por padrão, a janela do *widget* é carregada no lado direito da página web. Essa
 posição inicial só pode ser alterada em tempo de integração, através do
-parâmetro ``position`` (veja :doc:`../installation/web-page-integration`), que
+parâmetro ``position`` (veja :doc:`../installation/webpageintegration`), que
 aceita os valores **"R"** (direita) ou **"L"** (esquerda).
 
 Além disso, o usuário pode reposicionar livremente a janela do *widget* na tela
