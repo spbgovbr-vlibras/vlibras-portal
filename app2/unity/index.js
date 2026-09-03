@@ -17,7 +17,7 @@ const postEvent = (event, data) => {
 	}
 };
 
-gameInstance = UnityLoader.instantiate("gameContainer", "playerweb.json?v=7.11.0", {
+gameInstance = UnityLoader.instantiate("gameContainer", "playerweb.json?v=7.12.1", {
 	onProgress: (_, progress) => {
 		postEvent("update_progress", progress);
 	},

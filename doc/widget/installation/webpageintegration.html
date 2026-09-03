@@ -60,6 +60,7 @@
 <li class="toctree-l1"><a class="reference internal" href="system-requirements.html">Requisitos do Sistema</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Integrando a uma Página Web</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#parametros">Parâmetros</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#personalizando-o-botao-via-variaveis-css">Personalizando o botão via variáveis CSS</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="content-security-policy.html">Content Security Policy (CSP)</a></li>
@@ -193,6 +194,66 @@ do projeto. Saiba mais em <a class="reference internal" href="../functionalities
 Também é possível utilizar <strong>“random”</strong> para escolher um avatar aleatório. Se não for especificado, o Widget utilizará o avatar Icaro como padrão.</p>
 </li>
 </ul>
+</section>
+<section id="personalizando-o-botao-via-variaveis-css">
+<h2>Personalizando o botão via variáveis CSS<a class="headerlink" href="#personalizando-o-botao-via-variaveis-css" title="Link para este cabeçalho"></a></h2>
+<p>O botão flutuante do VLibras Widget é renderizado dentro de uma <em>shadow root</em>,
+o que isola seus estilos do restante da página. Ainda assim, é possível
+personalizar sua aparência em alguns estados de interação através de
+<a class="reference external" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties">variáveis CSS</a>
+(<em>custom properties</em>), definidas no elemento raiz da sua aplicação (<code class="docutils literal notranslate"><span class="pre">:root</span></code>)
+ou em qualquer ancestral do Widget.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Variável</p></th>
+<th class="head"><p>Descrição</p></th>
+<th class="head"><p>Valor padrão</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">--vlibras-btn-outline</span></code></p></td>
+<td><p>Contorno (<em>outline</em>) padrão do botão.</p></td>
+<td><p><em>não definido</em></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">--vlibras-btn-focus-visible-outline</span></code></p></td>
+<td><p>Contorno do botão quando focado via teclado.</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">2px</span> <span class="pre">solid</span> <span class="pre">#fff</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">--vlibras-btn-focus-visible-shadow</span></code></p></td>
+<td><p>Sombra (<em>box-shadow</em>) do botão quando focado via teclado.</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">0</span> <span class="pre">10px</span> <span class="pre">4px</span> <span class="pre">#1351b4</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">--vlibras-btn-hover-filter</span></code></p></td>
+<td><p>Filtro aplicado ao botão ao passar o mouse (<em>hover</em>).</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">brightness(1.1)</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="w">  </span><span class="p">:</span><span class="nd">root</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nv">--vlibras-btn-focus-visible-outline</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#000</span><span class="p">;</span>
+<span class="w">    </span><span class="nv">--vlibras-btn-focus-visible-shadow</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">4</span><span class="kt">px</span><span class="w"> </span><span class="mh">#0a0</span><span class="p">;</span>
+<span class="w">    </span><span class="nv">--vlibras-btn-hover-filter</span><span class="p">:</span><span class="w"> </span><span class="nb">brightness</span><span class="p">(</span><span class="mf">1.2</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Como essas propriedades são herdadas através da <em>shadow root</em>, elas devem
+ser definidas em um seletor que englobe o elemento onde o script do Widget
+foi inserido (por exemplo, <code class="docutils literal notranslate"><span class="pre">:root</span></code> ou <code class="docutils literal notranslate"><span class="pre">body</span></code>).</p>
+</div>
+<p>Além das variáveis CSS, o próprio elemento do botão fica disponível em
+<code class="docutils literal notranslate"><span class="pre">window.VLibrasWidget.initBtn</span></code> após o carregamento do Widget, permitindo
+manipulá-lo diretamente via JavaScript (por exemplo, para adicionar
+<em>event listeners</em> ou aplicar estilos que fogem do escopo das variáveis
+descritas acima).</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="w">  </span><span class="nb">window</span><span class="p">.</span><span class="nx">VLibrasWidget</span><span class="p">.</span><span class="nx">initBtn</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">border</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;2px solid #000&#39;</span><span class="p">;</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+</div>
 </section>
 </section>
 
