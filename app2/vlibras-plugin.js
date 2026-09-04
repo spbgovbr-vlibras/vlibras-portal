@@ -1,1 +1,85 @@
-(()=>{let e=window.VLibrasWidget=Object.assign({path:`https://vlibras.gov.br/app`},window.VLibrasWidget);(window.VLibras=window.VLibras||{}).Widget=function(t,n,i,a){let o=t&&typeof t==`object`?t:{rootPath:t,personalization:n,avatar:i,position:a};Object.assign(e,{path:o.rootPath||e.path,personalization:o.personalization,avatar:o.avatar,position:o.position,showButton:o.showButton!==!1}),r()};let t=!1,n;function r(){if(t)return;t=!0;let r=e.path,i=e.position?.toLowerCase()===`l`?`left`:`right`,a=`<div id="vlibras-access"> <img id="vlibras-popup" src="${r}/assets/images/vlibras-popup.webp" alt="Acessível com VLibras"/> <button type="button" aria-label="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." id="vlibras-button"> <img src="${r}/assets/images/vlibras-access.svg" alt="" aria-hidden="true"/> </button> </div> <style> #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; ${i}: 10px; flex-direction: ${i===`left`?`row-reverse`:`row`}; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &:hover, &:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { ${i}: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </style>`,o=()=>{if(n)return n.dataset.active=!0;let t=document.createElement(`script`);t.type=`module`,t.src=`${e.path}/vlibras-plugin-app.js?v=7.12.1`,t.async=!0,t.onload=()=>{n=document.getElementById(`vlibras-app-root`),n&&(n.dataset.active=!0)},document.body.appendChild(t)},s=e=>{e??n?.dataset.active!==`true`?o():n&&(n.dataset.active=!1)};if(e.showButton){let t=document.createElement(`div`),n=t.attachShadow({mode:`open`});t.id=`vlibras-access-wrapper`,n.innerHTML=a,document.body.appendChild(t);let r=n.querySelector(`#vlibras-button`),i=n.querySelector(`#vlibras-access`);r.onclick=o,e.initBtn=r,e.access=i}e.open=o,e.toggle=s;try{localStorage[`@vlibras-widget`]?.includes(`"isOpen":true`)&&o()}catch{}}document.readyState===`loading`?document.addEventListener(`DOMContentLoaded`,()=>r()):setTimeout(()=>r(),50)})();
+(() => {
+  const vw = (window.VLibrasWidget = Object.assign(
+    { path: "https://vlibras.gov.br/app2" },
+    window.VLibrasWidget,
+  ));
+
+  (window.VLibras = window.VLibras || {}).Widget = function (
+    path,
+    personalization,
+    avatar,
+    position,
+  ) {
+    if (path && typeof path === "object") {
+      Object.assign(vw, {
+        path: path.rootPath || vw.path,
+        avatar: path.avatar,
+        position: path.position,
+        personalization: path.personalization,
+      });
+    } else {
+      Object.assign(vw, {
+        path: path || vw.path,
+        personalization,
+        avatar,
+        position,
+      });
+    }
+
+    renderWidget();
+  };
+
+  let isRendered = false;
+  let widget;
+
+  function renderWidget() {
+    if (isRendered) return;
+    isRendered = true;
+
+    const currentPath = vw.path;
+    const position = vw.position?.toLowerCase() === "l" ? "left" : "right";
+
+    const template = `<div id="vlibras-access"> <img id="vlibras-popup" src="${currentPath}/assets/images/vlibras-popup.webp"/> <button type="button" aria-label="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." id="vlibras-button"> <img src="${currentPath}/assets/images/vlibras-access.svg"/> </button> </div> <style> #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; ${position}: 10px; flex-direction: ${position === "left" ? "row-reverse" : "row"}; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &:hover { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { ${position}: 0; z-index: 1; position: absolute; width: 40px; height: 40px; border: none; padding: 0; cursor: pointer; &:hover { filter: brightness(1.1); } } </style>`;
+
+    const wrapper = document.createElement("div");
+    const shadow = wrapper.attachShadow({ mode: "open" });
+    wrapper.id = "vlibras-access-wrapper";
+
+    shadow.innerHTML = template;
+    document.body.appendChild(wrapper);
+
+    const initBtn = shadow.querySelector("#vlibras-button");
+
+    const open = () => {
+      if (widget) {
+        widget.dataset.active = "true";
+        return;
+      }
+
+      const script = document.createElement("script");
+      script.type = "module";
+      script.src = `${vw.path}/vlibras-plugin-app.js?v=7.11.0`;
+      script.async = true;
+      script.onload = () => {
+        widget = document.getElementById("vlibras-app-root");
+        if (widget) widget.dataset.active = "true";
+      };
+
+      document.body.appendChild(script);
+    };
+
+    initBtn.onclick = open;
+    vw.initBtn = initBtn;
+    vw.open = open;
+
+    try {
+      if (localStorage["@vlibras-widget"]?.includes('"isOpen":true')) open();
+    } catch {
+      // Ignore
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => renderWidget());
+  } else setTimeout(() => renderWidget(), 50);
+})();
