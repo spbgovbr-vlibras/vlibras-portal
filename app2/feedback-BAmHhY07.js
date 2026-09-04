@@ -1,1 +1,0 @@
-import{C as e,et as t,h as n,w as r}from"./vlibras-initial-CsLUaRoG.js";var i=()=>{n(`OBRIGADO`,`${t.getState().path}/assets/bundles/`),r(`Agradecemos sua contribuição!`,{variant:`primary`,className:`font-semibold`}),e.set({text:void 0})};export{i as t};
