@@ -87,6 +87,61 @@ passar um objeto (ou os parâmetros diretamente) para o construtor do Widget
 
 • **avatar:**
 
-  Define o avatar padrão. No momento, o VLibras conta com **"icaro"** (padrão), **"hosana"** e **"guga"**. 
+  Define o avatar padrão. No momento, o VLibras conta com **"icaro"** (padrão), **"hosana"** e **"guga"**.
   Também é possível utilizar **"random"** para escolher um avatar aleatório. Se não for especificado, o Widget utilizará o avatar Icaro como padrão.
- 
+
+Personalizando o botão via variáveis CSS
+-----------------------------------------
+
+O botão flutuante do VLibras Widget é renderizado dentro de uma *shadow root*,
+o que isola seus estilos do restante da página. Ainda assim, é possível
+personalizar sua aparência em alguns estados de interação através de
+`variáveis CSS <https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties>`_
+(*custom properties*), definidas no elemento raiz da sua aplicação (``:root``)
+ou em qualquer ancestral do Widget.
+
+.. list-table::
+  :header-rows: 1
+
+  * - Variável
+    - Descrição
+    - Valor padrão
+  * - ``--vlibras-btn-outline``
+    - Contorno (*outline*) padrão do botão.
+    - *não definido*
+  * - ``--vlibras-btn-focus-visible-outline``
+    - Contorno do botão quando focado via teclado.
+    - ``2px solid #fff``
+  * - ``--vlibras-btn-focus-visible-shadow``
+    - Sombra (*box-shadow*) do botão quando focado via teclado.
+    - ``0 0 10px 4px #1351b4``
+  * - ``--vlibras-btn-hover-filter``
+    - Filtro aplicado ao botão ao passar o mouse (*hover*).
+    - ``brightness(1.1)``
+
+.. code-block:: HTML
+
+  <style>
+    :root {
+      --vlibras-btn-focus-visible-outline: 2px solid #000;
+      --vlibras-btn-focus-visible-shadow: 0 0 10px 4px #0a0;
+      --vlibras-btn-hover-filter: brightness(1.2);
+    }
+  </style>
+
+.. important::
+  Como essas propriedades são herdadas através da *shadow root*, elas devem
+  ser definidas em um seletor que englobe o elemento onde o script do Widget
+  foi inserido (por exemplo, ``:root`` ou ``body``).
+
+Além das variáveis CSS, o próprio elemento do botão fica disponível em
+``window.VLibrasWidget.initBtn`` após o carregamento do Widget, permitindo
+manipulá-lo diretamente via JavaScript (por exemplo, para adicionar
+*event listeners* ou aplicar estilos que fogem do escopo das variáveis
+descritas acima).
+
+.. code-block:: HTML
+
+  <script>
+    window.VLibrasWidget.initBtn.style.border = '2px solid #000';
+  </script>
